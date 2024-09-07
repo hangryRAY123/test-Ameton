@@ -34,12 +34,13 @@
   width: 24px;
   height: 24px;
   margin-left: 20px;
+  margin-right: -12px;
   background-repeat: no-repeat;
   background-size: 24px;
   content: "";
   transition: transform 0.2s ease-out;
-  background-image: url('../../img/svg/accordion-arrow.svg');
-  background-position: right;
+  background-image: url('../img/svg/accordion-arrow.svg');
+  background-position: center;
   background-repeat: no-repeat;
   background-size: auto;
 }
@@ -59,7 +60,6 @@
   line-height: 140%;
   color: #949494;
   max-width: 430px;
-  padding-top: 4px;
 }
 
 .accordion__content {

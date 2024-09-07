@@ -2143,7 +2143,7 @@ button,
           transform: translateY(-50%);
   width: 263px;
   height: 196px;
-  background-image: url(../../img/svg/intro-air.svg);
+  background-image: url(../img/svg/intro-air.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -2155,7 +2155,7 @@ button,
   bottom: 0;
   width: 277px;
   height: 226px;
-  background-image: url(../../img/svg/intro-hand.svg);
+  background-image: url(../img/svg/intro-hand.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -2431,7 +2431,7 @@ button,
   height: 162px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  background-image: url(../../img/slider-question.png);
+  background-image: url(../img/slider-question.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -2461,7 +2461,7 @@ button,
   content: "";
   width: 7px;
   height: 11px;
-  background-image: url(../../img/svg/arrow-slide.svg);
+  background-image: url(../img/svg/arrow-slide.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -2473,7 +2473,7 @@ button,
   content: "";
   width: 7px;
   height: 11px;
-  background-image: url(../../img/svg/arrow-slide.svg);
+  background-image: url(../img/svg/arrow-slide.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -2586,6 +2586,7 @@ button,
   width: 24px;
   height: 24px;
   margin-left: 20px;
+  margin-right: -12px;
   background-repeat: no-repeat;
   background-size: 24px;
   content: "";
@@ -2593,8 +2594,8 @@ button,
   transition: -webkit-transform 0.2s ease-out;
   transition: transform 0.2s ease-out;
   transition: transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
-  background-image: url("../../img/svg/accordion-arrow.svg");
-  background-position: right;
+  background-image: url("../img/svg/accordion-arrow.svg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: auto;
 }
@@ -2616,7 +2617,6 @@ button,
   line-height: 140%;
   color: #949494;
   max-width: 430px;
-  padding-top: 4px;
 }
 
 .accordion__content {
